@@ -1,0 +1,1893 @@
+{
+  "Company.Customers.API.dll": {
+    "C:\\Trabalho\\Stone\\Company.Customers\\Company.Customers.API\\Program.cs": {
+      "Company.Customers.API.Program": {
+        "System.Void Company.Customers.API.Program::Main(System.String[])": {
+          "Lines": {
+            "9": 0,
+            "10": 0,
+            "11": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.Extensions.Hosting.IHostBuilder Company.Customers.API.Program::CreateHostBuilder(System.String[])": {
+          "Lines": {
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Company.Customers\\Company.Customers.API\\Startup.cs": {
+      "Company.Customers.API.Startup": {
+        "Microsoft.Extensions.Configuration.IConfiguration Company.Customers.API.Startup::get_Configuration()": {
+          "Lines": {
+            "15": 0
+          },
+          "Branches": []
+        },
+        "System.Void Company.Customers.API.Startup::ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
+          "Lines": {
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0
+          },
+          "Branches": []
+        },
+        "System.Void Company.Customers.API.Startup::Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)": {
+          "Lines": {
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "39": 0,
+            "41": 0,
+            "43": 0,
+            "45": 0,
+            "47": 0,
+            "49": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0
+          },
+          "Branches": [
+            {
+              "Line": 34,
+              "Offset": 9,
+              "EndOffset": 11,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 34,
+              "Offset": 9,
+              "EndOffset": 20,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void Company.Customers.API.Startup::.ctor(Microsoft.Extensions.Configuration.IConfiguration,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)": {
+          "Lines": {
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Company.Customers\\Company.Customers.API\\Middlewares\\GlobalExceptionHandlerMiddleware.cs": {
+      "Company.Customers.API.Middlewares.GlobalExceptionHandlerMiddleware": {
+        "System.Threading.Tasks.Task Company.Customers.API.Middlewares.GlobalExceptionHandlerMiddleware::HandleExceptionAsync(Microsoft.AspNetCore.Http.HttpContext,System.Exception)": {
+          "Lines": {
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0
+          },
+          "Branches": []
+        },
+        "System.Void Company.Customers.API.Middlewares.GlobalExceptionHandlerMiddleware::.ctor(Microsoft.Extensions.Logging.ILogger`1<Company.Customers.API.Middlewares.GlobalExceptionHandlerMiddleware>)": {
+          "Lines": {
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0
+          },
+          "Branches": []
+        },
+        "System.Void Company.Customers.API.Middlewares.GlobalExceptionHandlerMiddleware::.cctor()": {
+          "Lines": {
+            "15": 0
+          },
+          "Branches": []
+        }
+      },
+      "Company.Customers.API.Middlewares.GlobalExceptionHandlerMiddleware/<InvokeAsync>d__4": {
+        "System.Void Company.Customers.API.Middlewares.GlobalExceptionHandlerMiddleware/<InvokeAsync>d__4::MoveNext()": {
+          "Lines": {
+            "23": 0,
+            "25": 0,
+            "26": 0,
+            "28": 0,
+            "29": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0
+          },
+          "Branches": [
+            {
+              "Line": 28,
+              "Offset": 95,
+              "EndOffset": 97,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 28,
+              "Offset": 95,
+              "EndOffset": 122,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Company.Customers\\Company.Customers.API\\Middlewares\\GlobalExceptionHandlerMiddlewareExtensions.cs": {
+      "Company.Customers.API.Middlewares.GlobalExceptionHandlerMiddlewareExtensions": {
+        "Microsoft.Extensions.DependencyInjection.IServiceCollection Company.Customers.API.Middlewares.GlobalExceptionHandlerMiddlewareExtensions::AddGlobalExceptionHandlerMiddleware(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
+          "Lines": {
+            "9": 0,
+            "10": 0,
+            "11": 0
+          },
+          "Branches": []
+        },
+        "System.Void Company.Customers.API.Middlewares.GlobalExceptionHandlerMiddlewareExtensions::UseGlobalExceptionHandlerMiddleware(Microsoft.AspNetCore.Builder.IApplicationBuilder)": {
+          "Lines": {
+            "14": 0,
+            "15": 0,
+            "16": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Company.Customers\\Company.Customers.API\\Controllers\\V1\\CustomerController.cs": {
+      "Company.Customers.API.Controllers.V1.CustomerController": {
+        "System.Void Company.Customers.API.Controllers.V1.CustomerController::.ctor(Company.Customers.Application.AppService.Interfaces.ICustomerAppService)": {
+          "Lines": {
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0
+          },
+          "Branches": []
+        }
+      },
+      "Company.Customers.API.Controllers.V1.CustomerController/<Cadastrar>d__2": {
+        "System.Void Company.Customers.API.Controllers.V1.CustomerController/<Cadastrar>d__2::MoveNext()": {
+          "Lines": {
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "33": 0,
+            "34": 0
+          },
+          "Branches": [
+            {
+              "Line": 30,
+              "Offset": 169,
+              "EndOffset": 171,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 30,
+              "Offset": 169,
+              "EndOffset": 191,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Company.Customers.API.Controllers.V1.CustomerController/<ConsultarPorCpf>d__3": {
+        "System.Void Company.Customers.API.Controllers.V1.CustomerController/<ConsultarPorCpf>d__3::MoveNext()": {
+          "Lines": {
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "47": 0,
+            "48": 0
+          },
+          "Branches": [
+            {
+              "Line": 44,
+              "Offset": 169,
+              "EndOffset": 171,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 44,
+              "Offset": 169,
+              "EndOffset": 185,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Company.Customers.API.Controllers.V1.CustomerController/<Consultar>d__4": {
+        "System.Void Company.Customers.API.Controllers.V1.CustomerController/<Consultar>d__4::MoveNext()": {
+          "Lines": {
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "60": 0,
+            "61": 0
+          },
+          "Branches": [
+            {
+              "Line": 57,
+              "Offset": 169,
+              "EndOffset": 171,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 57,
+              "Offset": 169,
+              "EndOffset": 191,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Company.Customers\\Company.Customers.API\\Configurations\\Swagger\\SwaggerConfig.cs": {
+      "Company.Customers.API.Configurations.Swagger.SwaggerConfig": {
+        "System.Void Company.Customers.API.Configurations.Swagger.SwaggerConfig::AddSwaggerConfiguration(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
+          "Lines": {
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0
+          },
+          "Branches": []
+        },
+        "System.Void Company.Customers.API.Configurations.Swagger.SwaggerConfig::UseSwaggerSetup(Microsoft.AspNetCore.Builder.IApplicationBuilder)": {
+          "Lines": {
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "Company.Customers.Application.dll": {
+    "C:\\Trabalho\\Stone\\Company.Customers\\Stone.Apresentacao\\Response\\Customer\\CustomerResponse.cs": {
+      "Company.Customers.Application.Response.Customer.CustomerResponse": {
+        "System.Guid Company.Customers.Application.Response.Customer.CustomerResponse::get_Id()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.String Company.Customers.Application.Response.Customer.CustomerResponse::get_Nome()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "System.String Company.Customers.Application.Response.Customer.CustomerResponse::get_Estado()": {
+          "Lines": {
+            "13": 0
+          },
+          "Branches": []
+        },
+        "System.String Company.Customers.Application.Response.Customer.CustomerResponse::get_Cpf()": {
+          "Lines": {
+            "15": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Company.Customers\\Stone.Apresentacao\\Request\\Customer\\CustomerRequest.cs": {
+      "Company.Customers.Application.Request.Customer.CustomerRequest": {
+        "System.String Company.Customers.Application.Request.Customer.CustomerRequest::get_Nome()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "System.String Company.Customers.Application.Request.Customer.CustomerRequest::get_Estado()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.String Company.Customers.Application.Request.Customer.CustomerRequest::get_Cpf()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Company.Customers\\Stone.Apresentacao\\Mappers\\CustomerReponseMapper.cs": {
+      "Company.Customers.Application.Mappers.CustomerReponseMapper": {
+        "Company.Customers.Application.Response.Customer.CustomerResponse Company.Customers.Application.Mappers.CustomerReponseMapper::ConverterCustomerEmCustomerResponse(Company.Customers.Domain.Entities.Customer)": {
+          "Lines": {
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Company.Customers\\Stone.Apresentacao\\Mappers\\CustomerRequestMapper.cs": {
+      "Company.Customers.Application.Mappers.CustomerRequestMapper": {
+        "Company.Customers.Domain.Entities.Customer Company.Customers.Application.Mappers.CustomerRequestMapper::ConverterCustomerRequestEmCustomer(Company.Customers.Application.Request.Customer.CustomerRequest)": {
+          "Lines": {
+            "9": 0,
+            "10": 0,
+            "11": 0
+          },
+          "Branches": [
+            {
+              "Line": 10,
+              "Offset": 2,
+              "EndOffset": 4,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 10,
+              "Offset": 2,
+              "EndOffset": 7,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 10,
+              "Offset": 14,
+              "EndOffset": 16,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 10,
+              "Offset": 14,
+              "EndOffset": 19,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 10,
+              "Offset": 26,
+              "EndOffset": 28,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 10,
+              "Offset": 26,
+              "EndOffset": 31,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Company.Customers\\Stone.Apresentacao\\AppService\\CustomerAppService.cs": {
+      "Company.Customers.Application.AppService.CustomerAppService": {
+        "System.Void Company.Customers.Application.AppService.CustomerAppService::.ctor(Company.Customers.Domain.Services.Interfaces.ICustomerService,Company.Customers.Infra.CrossCutting.Utils.Interfaces.ICpfMask)": {
+          "Lines": {
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0
+          },
+          "Branches": []
+        }
+      },
+      "Company.Customers.Application.AppService.CustomerAppService/<Cadastrar>d__3": {
+        "System.Void Company.Customers.Application.AppService.CustomerAppService/<Cadastrar>d__3::MoveNext()": {
+          "Lines": {
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "29": 0,
+            "30": 0,
+            "32": 0,
+            "34": 0,
+            "35": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "42": 0
+          },
+          "Branches": [
+            {
+              "Line": 26,
+              "Offset": 29,
+              "EndOffset": 31,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 26,
+              "Offset": 29,
+              "EndOffset": 50,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 34,
+              "Offset": 279,
+              "EndOffset": 281,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 34,
+              "Offset": 279,
+              "EndOffset": 324,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Company.Customers.Application.AppService.CustomerAppService/<>c": {
+        "Company.Customers.Application.Response.Customer.CustomerResponse Company.Customers.Application.AppService.CustomerAppService/<>c::<Consultar>b__4_0(Company.Customers.Domain.Entities.Customer)": {
+          "Lines": {
+            "51": 0
+          },
+          "Branches": []
+        }
+      },
+      "Company.Customers.Application.AppService.CustomerAppService/<Consultar>d__4": {
+        "System.Void Company.Customers.Application.AppService.CustomerAppService/<Consultar>d__4::MoveNext()": {
+          "Lines": {
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "50": 0,
+            "52": 0,
+            "54": 0
+          },
+          "Branches": [
+            {
+              "Line": 47,
+              "Offset": 181,
+              "EndOffset": 183,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 47,
+              "Offset": 181,
+              "EndOffset": 230,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Company.Customers.Application.AppService.CustomerAppService/<ConsultarPorCpf>d__5": {
+        "System.Void Company.Customers.Application.AppService.CustomerAppService/<ConsultarPorCpf>d__5::MoveNext()": {
+          "Lines": {
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "66": 0
+          },
+          "Branches": [
+            {
+              "Line": 59,
+              "Offset": 197,
+              "EndOffset": 199,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 59,
+              "Offset": 197,
+              "EndOffset": 243,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "Company.Customers.Domain.dll": {
+    "C:\\Trabalho\\Stone\\Company.Customers\\Company.Customers.Domain\\Validations\\CustomerValidation.cs": {
+      "Company.Customers.Domain.Validations.CustomerValidation": {
+        "Company.Customers.Infra.CrossCutting.Utils.Interfaces.IOperation`1<Company.Customers.Domain.Entities.Customer> Company.Customers.Domain.Validations.CustomerValidation::Validar(Company.Customers.Domain.Entities.Customer)": {
+          "Lines": {
+            "21": 11,
+            "22": 11,
+            "23": 1,
+            "25": 10,
+            "27": 10,
+            "28": 10,
+            "30": 10,
+            "31": 9,
+            "33": 1,
+            "35": 11
+          },
+          "Branches": [
+            {
+              "Line": 22,
+              "Offset": 7,
+              "EndOffset": 9,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 22,
+              "Offset": 7,
+              "EndOffset": 25,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 10
+            },
+            {
+              "Line": 30,
+              "Offset": 67,
+              "EndOffset": 69,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 9
+            },
+            {
+              "Line": 30,
+              "Offset": 67,
+              "EndOffset": 86,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            }
+          ]
+        },
+        "System.Void Company.Customers.Domain.Validations.CustomerValidation::ValidarCpf(System.String&,System.Collections.Generic.List`1<Company.Customers.Infra.CrossCutting.Utils.DetalhesDaMensagem>)": {
+          "Lines": {
+            "38": 10,
+            "39": 10,
+            "40": 2,
+            "41": 2,
+            "42": 2,
+            "43": 2,
+            "44": 2,
+            "45": 2,
+            "46": 2,
+            "47": 2,
+            "49": 8,
+            "50": 8,
+            "51": 1,
+            "52": 1,
+            "53": 1,
+            "54": 1,
+            "55": 1,
+            "56": 1,
+            "57": 1,
+            "58": 1,
+            "59": 1,
+            "60": 8,
+            "61": 10
+          },
+          "Branches": [
+            {
+              "Line": 39,
+              "Offset": 10,
+              "EndOffset": 12,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 39,
+              "Offset": 10,
+              "EndOffset": 61,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 8
+            },
+            {
+              "Line": 50,
+              "Offset": 80,
+              "EndOffset": 82,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 50,
+              "Offset": 80,
+              "EndOffset": 129,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 8
+            }
+          ]
+        },
+        "System.Void Company.Customers.Domain.Validations.CustomerValidation::ValidaDadosVazios(Company.Customers.Domain.Entities.Customer,System.Collections.Generic.List`1<Company.Customers.Infra.CrossCutting.Utils.DetalhesDaMensagem>)": {
+          "Lines": {
+            "64": 10,
+            "65": 10,
+            "66": 2,
+            "67": 2,
+            "68": 2,
+            "69": 2,
+            "70": 2,
+            "71": 2,
+            "72": 2,
+            "73": 2,
+            "74": 2,
+            "76": 8,
+            "77": 8,
+            "78": 1,
+            "79": 1,
+            "80": 1,
+            "81": 1,
+            "82": 1,
+            "83": 1,
+            "84": 1,
+            "85": 1,
+            "86": 1,
+            "87": 8,
+            "89": 10,
+            "90": 2,
+            "91": 2,
+            "92": 2,
+            "93": 2,
+            "94": 2,
+            "95": 2,
+            "96": 2,
+            "97": 2,
+            "99": 8,
+            "100": 8,
+            "101": 1,
+            "102": 1,
+            "103": 1,
+            "104": 1,
+            "105": 1,
+            "106": 1,
+            "107": 1,
+            "108": 1,
+            "109": 1,
+            "110": 8,
+            "112": 10
+          },
+          "Branches": [
+            {
+              "Line": 65,
+              "Offset": 14,
+              "EndOffset": 16,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 65,
+              "Offset": 14,
+              "EndOffset": 74,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 8
+            },
+            {
+              "Line": 77,
+              "Offset": 95,
+              "EndOffset": 97,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 77,
+              "Offset": 95,
+              "EndOffset": 168,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 8
+            },
+            {
+              "Line": 89,
+              "Offset": 182,
+              "EndOffset": 184,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 2
+            },
+            {
+              "Line": 89,
+              "Offset": 182,
+              "EndOffset": 242,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 8
+            },
+            {
+              "Line": 100,
+              "Offset": 259,
+              "EndOffset": 261,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 1
+            },
+            {
+              "Line": 100,
+              "Offset": 259,
+              "EndOffset": 328,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 8
+            }
+          ]
+        },
+        "System.Void Company.Customers.Domain.Validations.CustomerValidation::.ctor(Company.Customers.Domain.Validations.Interfaces.ICpfValidation)": {
+          "Lines": {
+            "15": 11,
+            "16": 11,
+            "17": 11,
+            "18": 11
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Company.Customers\\Company.Customers.Domain\\Validations\\CpfValidation.cs": {
+      "Company.Customers.Domain.Validations.CpfValidation": {
+        "System.Boolean Company.Customers.Domain.Validations.CpfValidation::Validar(System.String)": {
+          "Lines": {
+            "19": 23,
+            "20": 23,
+            "21": 3,
+            "23": 20,
+            "24": 20,
+            "26": 20,
+            "27": 9,
+            "29": 11,
+            "31": 11,
+            "32": 220,
+            "33": 99,
+            "35": 11,
+            "36": 11,
+            "38": 11,
+            "39": 11,
+            "40": 11,
+            "41": 242,
+            "42": 110,
+            "43": 11,
+            "44": 11,
+            "45": 11,
+            "46": 23
+          },
+          "Branches": [
+            {
+              "Line": 20,
+              "Offset": 7,
+              "EndOffset": 9,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 21
+            },
+            {
+              "Line": 20,
+              "Offset": 7,
+              "EndOffset": 17,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            },
+            {
+              "Line": 20,
+              "Offset": 22,
+              "EndOffset": 24,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 3
+            },
+            {
+              "Line": 20,
+              "Offset": 22,
+              "EndOffset": 32,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 20
+            },
+            {
+              "Line": 26,
+              "Offset": 72,
+              "EndOffset": 74,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 9
+            },
+            {
+              "Line": 26,
+              "Offset": 72,
+              "EndOffset": 82,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 11
+            },
+            {
+              "Line": 32,
+              "Offset": 149,
+              "EndOffset": 99,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 99
+            },
+            {
+              "Line": 32,
+              "Offset": 149,
+              "EndOffset": 151,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 11
+            },
+            {
+              "Line": 36,
+              "Offset": 158,
+              "EndOffset": 160,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 9
+            },
+            {
+              "Line": 36,
+              "Offset": 158,
+              "EndOffset": 166,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 2
+            },
+            {
+              "Line": 41,
+              "Offset": 241,
+              "EndOffset": 191,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 110
+            },
+            {
+              "Line": 41,
+              "Offset": 241,
+              "EndOffset": 243,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 11
+            },
+            {
+              "Line": 44,
+              "Offset": 250,
+              "EndOffset": 252,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 10
+            },
+            {
+              "Line": 44,
+              "Offset": 250,
+              "EndOffset": 258,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 1
+            }
+          ]
+        },
+        "System.Void Company.Customers.Domain.Validations.CpfValidation::.ctor(Company.Customers.Infra.CrossCutting.Utils.Interfaces.ICpfMask)": {
+          "Lines": {
+            "13": 23,
+            "14": 23,
+            "15": 23,
+            "17": 23
+          },
+          "Branches": []
+        },
+        "System.Void Company.Customers.Domain.Validations.CpfValidation::.cctor()": {
+          "Lines": {
+            "10": 1,
+            "11": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Company.Customers\\Company.Customers.Domain\\Services\\CustomerService.cs": {
+      "Company.Customers.Domain.Services.CustomerService": {
+        "Company.Customers.Infra.CrossCutting.Utils.Interfaces.IOperation`1<System.Collections.Generic.List`1<Company.Customers.Domain.Entities.Customer>> Company.Customers.Domain.Services.CustomerService::CriarFalhaConsultaGeralCustomer(System.Int32&)": {
+          "Lines": {
+            "92": 2,
+            "93": 2,
+            "94": 2,
+            "95": 2,
+            "96": 2,
+            "97": 2,
+            "98": 2,
+            "99": 2,
+            "100": 2
+          },
+          "Branches": []
+        },
+        "System.Void Company.Customers.Domain.Services.CustomerService::.ctor(Company.Customers.Domain.Validations.Interfaces.ICustomerValidation,Company.Customers.Domain.Repository.Interfaces.ICustomerWriterRepository,Company.Customers.Domain.Repository.Interfaces.ICustomerQueryRepository,Company.Customers.Domain.Validations.Interfaces.ICpfValidation)": {
+          "Lines": {
+            "19": 12,
+            "20": 12,
+            "21": 12,
+            "22": 12,
+            "23": 12,
+            "24": 12,
+            "25": 12,
+            "26": 12,
+            "27": 12,
+            "28": 12
+          },
+          "Branches": []
+        }
+      },
+      "Company.Customers.Domain.Services.CustomerService/<Cadastrar>d__5": {
+        "System.Void Company.Customers.Domain.Services.CustomerService/<Cadastrar>d__5::MoveNext()": {
+          "Lines": {
+            "30": 4,
+            "31": 4,
+            "32": 4,
+            "33": 1,
+            "34": 3,
+            "35": 3,
+            "36": 1,
+            "38": 2,
+            "39": 2,
+            "40": 1,
+            "42": 1,
+            "43": 4
+          },
+          "Branches": [
+            {
+              "Line": 32,
+              "Offset": 73,
+              "EndOffset": 75,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 32,
+              "Offset": 73,
+              "EndOffset": 87,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 3
+            },
+            {
+              "Line": 35,
+              "Offset": 237,
+              "EndOffset": 239,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 35,
+              "Offset": 237,
+              "EndOffset": 251,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 2
+            },
+            {
+              "Line": 39,
+              "Offset": 404,
+              "EndOffset": 406,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 1
+            },
+            {
+              "Line": 39,
+              "Offset": 404,
+              "EndOffset": 423,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "Company.Customers.Domain.Services.CustomerService/<Consultar>d__6": {
+        "System.Void Company.Customers.Domain.Services.CustomerService/<Consultar>d__6::MoveNext()": {
+          "Lines": {
+            "46": 5,
+            "47": 5,
+            "48": 2,
+            "50": 3,
+            "51": 3,
+            "52": 2,
+            "54": 1,
+            "56": 5
+          },
+          "Branches": [
+            {
+              "Line": 47,
+              "Offset": 29,
+              "EndOffset": 31,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 47,
+              "Offset": 29,
+              "EndOffset": 54,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 3
+            },
+            {
+              "Line": 51,
+              "Offset": 204,
+              "EndOffset": 206,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 2
+            },
+            {
+              "Line": 51,
+              "Offset": 204,
+              "EndOffset": 239,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "Company.Customers.Domain.Services.CustomerService/<ConsultarPorCpf>d__7": {
+        "System.Void Company.Customers.Domain.Services.CustomerService/<ConsultarPorCpf>d__7::MoveNext()": {
+          "Lines": {
+            "60": 3,
+            "61": 3,
+            "62": 3,
+            "63": 2,
+            "64": 2,
+            "65": 2,
+            "66": 1,
+            "68": 1,
+            "70": 1,
+            "71": 3
+          },
+          "Branches": [
+            {
+              "Line": 62,
+              "Offset": 51,
+              "EndOffset": 56,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 65,
+              "Offset": 207,
+              "EndOffset": 209,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 65,
+              "Offset": 207,
+              "EndOffset": 223,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            },
+            {
+              "Line": 62,
+              "Offset": 51,
+              "EndOffset": 240,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "Company.Customers.Domain.Services.CustomerService/<ValidarCpfExistente>d__8": {
+        "System.Void Company.Customers.Domain.Services.CustomerService/<ValidarCpfExistente>d__8::MoveNext()": {
+          "Lines": {
+            "76": 3,
+            "77": 3,
+            "78": 3,
+            "79": 1,
+            "80": 1,
+            "81": 1,
+            "82": 1,
+            "83": 1,
+            "84": 1,
+            "85": 1,
+            "88": 2,
+            "89": 3
+          },
+          "Branches": [
+            {
+              "Line": 78,
+              "Offset": 169,
+              "EndOffset": 171,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 78,
+              "Offset": 169,
+              "EndOffset": 241,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Company.Customers\\Company.Customers.Domain\\Entities\\BaseEntity.cs": {
+      "Company.Customers.Domain.Entities.BaseEntity": {
+        "System.Guid Company.Customers.Domain.Entities.BaseEntity::get_Id()": {
+          "Lines": {
+            "11": 19
+          },
+          "Branches": []
+        },
+        "System.Void Company.Customers.Domain.Entities.BaseEntity::.ctor()": {
+          "Lines": {
+            "7": 14,
+            "8": 14,
+            "9": 14,
+            "10": 14
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Company.Customers\\Company.Customers.Domain\\Entities\\Customer.cs": {
+      "Company.Customers.Domain.Entities.Customer": {
+        "System.String Company.Customers.Domain.Entities.Customer::get_Nome()": {
+          "Lines": {
+            "19": 37
+          },
+          "Branches": []
+        },
+        "System.String Company.Customers.Domain.Entities.Customer::get_Estado()": {
+          "Lines": {
+            "20": 37
+          },
+          "Branches": []
+        },
+        "System.String Company.Customers.Domain.Entities.Customer::get_Cpf()": {
+          "Lines": {
+            "21": 30
+          },
+          "Branches": []
+        },
+        "System.Void Company.Customers.Domain.Entities.Customer::.ctor(System.String,System.String,System.String)": {
+          "Lines": {
+            "7": 14,
+            "8": 14,
+            "9": 14,
+            "10": 14,
+            "11": 14,
+            "12": 14
+          },
+          "Branches": []
+        },
+        "System.Void Company.Customers.Domain.Entities.Customer::.ctor(System.Guid,System.String,System.String,System.String)": {
+          "Lines": {
+            "14": 3,
+            "15": 3,
+            "16": 3,
+            "17": 3
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "Company.Customers.Infra.CrossCutting.IoC.dll": {
+    "C:\\Trabalho\\Stone\\Company.Customers\\Company.Customers.Infra.IoC\\BootStrapper.cs": {
+      "Company.Customers.Infra.CrossCutting.IoC.BootStrapper": {
+        "Microsoft.Extensions.DependencyInjection.IServiceCollection Company.Customers.Infra.CrossCutting.IoC.BootStrapper::RegisterServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
+          "Lines": {
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "39": 0,
+            "40": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.Extensions.DependencyInjection.IServiceCollection Company.Customers.Infra.CrossCutting.IoC.BootStrapper::AddHealthChecksApiCustomer(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
+          "Lines": {
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0
+          },
+          "Branches": []
+        },
+        "System.Void Company.Customers.Infra.CrossCutting.IoC.BootStrapper::UseHealthChecksApiCustomer(Microsoft.AspNetCore.Builder.IApplicationBuilder)": {
+          "Lines": {
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.Extensions.DependencyInjection.IServiceCollection Company.Customers.Infra.CrossCutting.IoC.BootStrapper::AddValidations(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
+          "Lines": {
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.Extensions.DependencyInjection.IServiceCollection Company.Customers.Infra.CrossCutting.IoC.BootStrapper::AddRepository(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
+          "Lines": {
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "87": 0,
+            "88": 0,
+            "91": 0,
+            "92": 0,
+            "94": 0,
+            "95": 0
+          },
+          "Branches": [
+            {
+              "Line": 88,
+              "Offset": 11,
+              "EndOffset": 13,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 88,
+              "Offset": 11,
+              "EndOffset": 19,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "Microsoft.Extensions.DependencyInjection.IServiceCollection Company.Customers.Infra.CrossCutting.IoC.BootStrapper::AddUtil(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Boolean)": {
+          "Lines": {
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "102": 0,
+            "104": 0,
+            "105": 0
+          },
+          "Branches": [
+            {
+              "Line": 99,
+              "Offset": 4,
+              "EndOffset": 6,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 99,
+              "Offset": 4,
+              "EndOffset": 12,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "Company.Customers.Infra.CrossCutting.Utils.dll": {
+    "C:\\Trabalho\\Stone\\Company.Customers\\Company.Customers.Infra.CrossCutting.Utils\\DetalhesDaMensagem.cs": {
+      "Company.Customers.Infra.CrossCutting.Utils.DetalhesDaMensagem": {
+        "System.String Company.Customers.Infra.CrossCutting.Utils.DetalhesDaMensagem::get_Campo()": {
+          "Lines": {
+            "8": 24
+          },
+          "Branches": []
+        },
+        "System.String Company.Customers.Infra.CrossCutting.Utils.DetalhesDaMensagem::get_Mensagem()": {
+          "Lines": {
+            "10": 24
+          },
+          "Branches": []
+        },
+        "System.String Company.Customers.Infra.CrossCutting.Utils.DetalhesDaMensagem::get_Valor()": {
+          "Lines": {
+            "12": 24
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Company.Customers\\Company.Customers.Infra.CrossCutting.Utils\\Mensagens.cs": {
+      "Company.Customers.Infra.CrossCutting.Utils.Mensagens": {
+        "System.Collections.Generic.List`1<Company.Customers.Infra.CrossCutting.Utils.DetalhesDaMensagem> Company.Customers.Infra.CrossCutting.Utils.Mensagens::get_Campos()": {
+          "Lines": {
+            "19": 77
+          },
+          "Branches": []
+        },
+        "System.String Company.Customers.Infra.CrossCutting.Utils.Mensagens::get_Mensagem()": {
+          "Lines": {
+            "20": 38
+          },
+          "Branches": []
+        },
+        "System.Void Company.Customers.Infra.CrossCutting.Utils.Mensagens::AdicionarMensagem(Company.Customers.Infra.CrossCutting.Utils.DetalhesDaMensagem)": {
+          "Lines": {
+            "22": 10,
+            "23": 10,
+            "24": 3,
+            "25": 10
+          },
+          "Branches": [
+            {
+              "Line": 23,
+              "Offset": 7,
+              "EndOffset": 9,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 3
+            },
+            {
+              "Line": 23,
+              "Offset": 7,
+              "EndOffset": 22,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 10
+            }
+          ]
+        },
+        "System.Void Company.Customers.Infra.CrossCutting.Utils.Mensagens::.ctor(System.String&,Company.Customers.Infra.CrossCutting.Utils.DetalhesDaMensagem)": {
+          "Lines": {
+            "7": 10,
+            "8": 10,
+            "9": 10,
+            "10": 10,
+            "11": 10,
+            "12": 10
+          },
+          "Branches": []
+        },
+        "System.Void Company.Customers.Infra.CrossCutting.Utils.Mensagens::.ctor(System.String&,System.Collections.Generic.List`1<Company.Customers.Infra.CrossCutting.Utils.DetalhesDaMensagem>)": {
+          "Lines": {
+            "14": 9,
+            "15": 9,
+            "16": 9,
+            "17": 9,
+            "18": 9
+          },
+          "Branches": [
+            {
+              "Line": 17,
+              "Offset": 20,
+              "EndOffset": 22,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 17,
+              "Offset": 20,
+              "EndOffset": 28,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 9
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Company.Customers\\Company.Customers.Infra.CrossCutting.Utils\\OperationFail.cs": {
+      "Company.Customers.Infra.CrossCutting.Utils.OperationFail`1": {
+        "Company.Customers.Infra.CrossCutting.Utils.Mensagens Company.Customers.Infra.CrossCutting.Utils.OperationFail`1::get_Mensagens()": {
+          "Lines": {
+            "20": 93
+          },
+          "Branches": []
+        },
+        "System.Void Company.Customers.Infra.CrossCutting.Utils.OperationFail`1::.ctor(System.String&,Company.Customers.Infra.CrossCutting.Utils.DetalhesDaMensagem)": {
+          "Lines": {
+            "9": 10,
+            "10": 10,
+            "11": 10,
+            "12": 10
+          },
+          "Branches": []
+        },
+        "System.Void Company.Customers.Infra.CrossCutting.Utils.OperationFail`1::.ctor(System.String&,System.Collections.Generic.List`1<Company.Customers.Infra.CrossCutting.Utils.DetalhesDaMensagem>)": {
+          "Lines": {
+            "14": 9,
+            "15": 9,
+            "16": 9,
+            "17": 9
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Company.Customers\\Company.Customers.Infra.CrossCutting.Utils\\OperationSuccess.cs": {
+      "Company.Customers.Infra.CrossCutting.Utils.OperationSuccess`1": {
+        "T Company.Customers.Infra.CrossCutting.Utils.OperationSuccess`1::get_Data()": {
+          "Lines": {
+            "13": 8
+          },
+          "Branches": []
+        },
+        "System.Void Company.Customers.Infra.CrossCutting.Utils.OperationSuccess`1::.ctor(T)": {
+          "Lines": {
+            "8": 9,
+            "9": 9,
+            "10": 9,
+            "11": 9
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Company.Customers\\Company.Customers.Infra.CrossCutting.Utils\\Result.cs": {
+      "Company.Customers.Infra.CrossCutting.Utils.Result": {
+        "Company.Customers.Infra.CrossCutting.Utils.Interfaces.IOperation`1<T> Company.Customers.Infra.CrossCutting.Utils.Result::CreateSuccess()": {
+          "Lines": {
+            "9": 3,
+            "10": 3,
+            "11": 3
+          },
+          "Branches": []
+        },
+        "Company.Customers.Infra.CrossCutting.Utils.Interfaces.IOperation`1<T> Company.Customers.Infra.CrossCutting.Utils.Result::CreateSuccess(T)": {
+          "Lines": {
+            "14": 6,
+            "15": 6,
+            "16": 6
+          },
+          "Branches": []
+        },
+        "Company.Customers.Infra.CrossCutting.Utils.Interfaces.IOperation`1<T> Company.Customers.Infra.CrossCutting.Utils.Result::CreateFailure(System.String&,Company.Customers.Infra.CrossCutting.Utils.DetalhesDaMensagem)": {
+          "Lines": {
+            "19": 3,
+            "20": 3,
+            "21": 3
+          },
+          "Branches": []
+        },
+        "Company.Customers.Infra.CrossCutting.Utils.Interfaces.IOperation`1<T> Company.Customers.Infra.CrossCutting.Utils.Result::CreateFailure(System.String&)": {
+          "Lines": {
+            "24": 7,
+            "25": 7,
+            "26": 7
+          },
+          "Branches": []
+        },
+        "Company.Customers.Infra.CrossCutting.Utils.Interfaces.IOperation`1<T> Company.Customers.Infra.CrossCutting.Utils.Result::CreateFailure(System.String&,System.Collections.Generic.List`1<Company.Customers.Infra.CrossCutting.Utils.DetalhesDaMensagem>)": {
+          "Lines": {
+            "29": 9,
+            "30": 9,
+            "31": 9
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Company.Customers\\Company.Customers.Infra.CrossCutting.Utils\\Masks\\CpfMask.cs": {
+      "Company.Customers.Infra.CrossCutting.Utils.Masks.CpfMask": {
+        "System.String Company.Customers.Infra.CrossCutting.Utils.Masks.CpfMask::RemoveMaskCpf(System.String&)": {
+          "Lines": {
+            "9": 20,
+            "10": 20,
+            "11": 20
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Company.Customers\\Company.Customers.Infra.CrossCutting.Utils\\Configuracoes\\VariaveisDeAmbienteLocal.cs": {
+      "Company.Customers.Infra.CrossCutting.Utils.Configuracoes.VariaveisDeAmbienteLocal": {
+        "System.Void Company.Customers.Infra.CrossCutting.Utils.Configuracoes.VariaveisDeAmbienteLocal::CarregarVariaveis()": {
+          "Lines": {
+            "11": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0
+          },
+          "Branches": [
+            {
+              "Line": 17,
+              "Offset": 46,
+              "EndOffset": 48,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 17,
+              "Offset": 46,
+              "EndOffset": 58,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void Company.Customers.Infra.CrossCutting.Utils.Configuracoes.VariaveisDeAmbienteLocal::ConfigurarVariaveisDeAmbienteStone(System.String&)": {
+          "Lines": {
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "28": 0,
+            "29": 0,
+            "31": 0,
+            "32": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0
+          },
+          "Branches": [
+            {
+              "Line": 25,
+              "Offset": 8,
+              "EndOffset": 10,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 25,
+              "Offset": 8,
+              "EndOffset": 14,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 25,
+              "Offset": 20,
+              "EndOffset": 22,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 25,
+              "Offset": 20,
+              "EndOffset": 28,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 31,
+              "Offset": 71,
+              "EndOffset": 75,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 31,
+              "Offset": 71,
+              "EndOffset": 135,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.IO.DirectoryInfo Company.Customers.Infra.CrossCutting.Utils.Configuracoes.VariaveisDeAmbienteLocal::ObterDiretorio(System.String&)": {
+          "Lines": {
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "53": 0,
+            "54": 0
+          },
+          "Branches": [
+            {
+              "Line": 48,
+              "Offset": 47,
+              "EndOffset": 14,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 48,
+              "Offset": 24,
+              "EndOffset": 26,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 48,
+              "Offset": 24,
+              "EndOffset": 44,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 48,
+              "Offset": 47,
+              "EndOffset": 49,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "Company.Customers.Infra.Data.dll": {
+    "C:\\Trabalho\\Stone\\Company.Customers\\Company.Customers.Infra.Data\\Writer\\CustomerWriterRepository.cs": {
+      "Company.Customers.Infra.Data.Repository.CustomerWriterRepository": {
+        "System.Void Company.Customers.Infra.Data.Repository.CustomerWriterRepository::.ctor(MongoDB.Driver.IMongoDatabase)": {
+          "Lines": {
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0
+          },
+          "Branches": []
+        }
+      },
+      "Company.Customers.Infra.Data.Repository.CustomerWriterRepository/<Cadastrar>d__3": {
+        "System.Void Company.Customers.Infra.Data.Repository.CustomerWriterRepository/<Cadastrar>d__3::MoveNext()": {
+          "Lines": {
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Company.Customers\\Company.Customers.Infra.Data\\Query\\CustomerQueryRepository.cs": {
+      "Company.Customers.Infra.Data.Query.CustomerQueryRepository": {
+        "System.Void Company.Customers.Infra.Data.Query.CustomerQueryRepository::.ctor(MongoDB.Driver.IMongoDatabase,Company.Customers.Infra.Data.MongoDb.Configurations.Interfaces.ICustomerQueryRepositoryConfiguration)": {
+          "Lines": {
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0
+          },
+          "Branches": []
+        }
+      },
+      "Company.Customers.Infra.Data.Query.CustomerQueryRepository/<Consultar>d__4": {
+        "System.Void Company.Customers.Infra.Data.Query.CustomerQueryRepository/<Consultar>d__4::MoveNext()": {
+          "Lines": {
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "27": 0
+          },
+          "Branches": []
+        }
+      },
+      "Company.Customers.Infra.Data.Query.CustomerQueryRepository/<Consultar>d__5": {
+        "System.Void Company.Customers.Infra.Data.Query.CustomerQueryRepository/<Consultar>d__5::MoveNext()": {
+          "Lines": {
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Company.Customers\\Company.Customers.Infra.Data\\MongoDb\\MongoDatabaseProvider.cs": {
+      "Company.Customers.Infra.Data.MongoDb.MongoDatabaseProvider": {
+        "MongoDB.Driver.IMongoDatabase Company.Customers.Infra.Data.MongoDb.MongoDatabaseProvider::GetDatabase(System.String,System.String)": {
+          "Lines": {
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Trabalho\\Stone\\Company.Customers\\Company.Customers.Infra.Data\\MongoDb\\Configurations\\CustomerQueryRepositoryConfiguration.cs": {
+      "Company.Customers.Infra.Data.MongoDb.Configurations.CustomerQueryRepositoryConfiguration": {
+        "System.Int32 Company.Customers.Infra.Data.MongoDb.Configurations.CustomerQueryRepositoryConfiguration::ObtenhaTamanhoConfiguracao()": {
+          "Lines": {
+            "17": 0,
+            "18": 0,
+            "19": 0
+          },
+          "Branches": []
+        },
+        "System.Void Company.Customers.Infra.Data.MongoDb.Configurations.CustomerQueryRepositoryConfiguration::.ctor(System.Int32)": {
+          "Lines": {
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0
+          },
+          "Branches": [
+            {
+              "Line": 14,
+              "Offset": 10,
+              "EndOffset": 12,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 14,
+              "Offset": 10,
+              "EndOffset": 15,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    }
+  }
+}

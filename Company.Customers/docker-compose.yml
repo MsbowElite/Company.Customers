@@ -1,0 +1,17 @@
+version: '3.4'
+
+services:
+  company.customers.api:
+    image: ${DOCKER_REGISTRY-}companycustomersapi
+    build:
+      context: .
+      dockerfile: Company.Customers.API/Dockerfile
+
+  company.sqlserver:
+    container_name: sqlserver
+    image: msbowelite/company-msql
+    ports:
+      - "1433:1433"
+    environment:
+      SA_PASSWORD: "Insecure!12345"
+      ACCEPT_EULA: "Y"
